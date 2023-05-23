@@ -1,6 +1,6 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet } from 'react-native';
 
-import { theme } from "../../constants";
+import { theme } from '../../constants';
 
 export const styles = StyleSheet.create({
   containerGridItem: {
@@ -13,13 +13,13 @@ export const styles = StyleSheet.create({
   container: {
     flex: 1,
     borderRadius: 6,
-    shadowColor: "black",
+    shadowColor: 'black',
     shadowOpacity: 0.26,
     shadowOffset: { width: 0, height: 2 },
     shadowRadius: 6,
     elevation: 3,
-    justifyContent: "center",
-    alignItems: "center",
+    justifyContent: 'center',
+    alignItems: 'center',
     padding: 8,
   },
   titleButton: {

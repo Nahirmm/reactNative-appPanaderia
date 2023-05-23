@@ -1,15 +1,14 @@
-import React from "react";
-import { View, Text, TouchableOpacity } from "react-native";
+import React from 'react';
+import { View, Text, TouchableOpacity } from 'react-native';
 
-import { styles } from "./styles";
+import { styles } from './styles';
 
 const GridItem = ({ item, onSelected }) => {
   return (
     <View style={styles.containerGridItem}>
       <TouchableOpacity
         style={{ ...styles.container, backgroundColor: item.color }}
-        onPress={() => onSelected(item)}
-      >
+        onPress={() => onSelected(item)}>
         <View>
           <Text style={styles.titleButton}>{item.title}</Text>
         </View>
