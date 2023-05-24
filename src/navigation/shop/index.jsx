@@ -6,7 +6,7 @@ import { Categories, Products, Product, Home } from '../../screens';
 
 const Stack = createNativeStackNavigator();
 
-const MainNavigation = () => {
+const ShopNavigator = () => {
   return (
     <Stack.Navigator
       initialRouteName="Home"
@@ -38,4 +38,4 @@ const MainNavigation = () => {
   );
 };
 
-export default MainNavigation;
+export default ShopNavigator;
