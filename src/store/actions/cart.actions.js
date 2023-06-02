@@ -16,7 +16,6 @@ export const removeFromCart = (id) => ({
 export const confirmOrder = ({ cart, total }) => {
   return async (dispatch) => {
     try {
-      console.log(`${FIREBASE_REALTIME_DB_URL}orders.json`);
       const response = await fetch(`${FIREBASE_REALTIME_DB_URL}orders.json`, {
         method: 'POST',
         headers: {
